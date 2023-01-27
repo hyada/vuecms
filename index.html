@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 </head>
 <body>
 <br>
@@ -9,28 +9,16 @@
 <br>
 <br>
 <div id="text">
-<div data-key="text" data-type="text" v-html="text"></div>
-</div>
+	<div data-key="text_1" data-type="text" v-html="text_1"></div>
 
-<script type="text/javascript" src="https://gitcms_ui.blocs.jp/editor.js?_=dd849f4f7a90b0441d4cbe04a3934baa"></script>
+	<div data-key="text_2" data-type="text" v-html="text_2"></div>
+</div>
 
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
-const Text = {
-  data() {
-    return {
-      text: "",
-    }
-  },
-  mounted() {
-    axios.get('/api/data/test.txt')
-      .then(response => this.text = response.data.vals[0].value)
-      .catch(error => console.log(error))
-  }
-}
 
-Vue.createApp(Text).mount('#text')
-</script>
+<script src="https://gitcms_ui.blocs.jp/editor.js?_=dd849f4f7a90b0441d4cbe04a3934baa"></script>
+<script src="vuecms.js"></script>
+
 </body>
 </html>
