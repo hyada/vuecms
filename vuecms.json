@@ -1,4 +1,7 @@
 {
-    "text_1": "C<br><br><u>いい感じでしょうか？<br><\/u><u>どうでしょうか？<\/u>",
-    "text_2": "XXX<br><br><br><b>Header is here.<\/b><br><br><b>BBB<br><\/b><i>III<br><\/i><b>テストです。<\/b>"
+    "text_1": "On your mark<br><br><b><i>Test<\/i><\/b>",
+    "text_2": "This is Yahoo site.<br>Click link to Google<br><br>",
+    "link": "tetesttestjacksst",
+    "ref_link": "https:\/\/www.google.co.jp",
+    "arget_link": "_blank"
 }
